@@ -1,8 +1,13 @@
 .text-left {
-    padding-left: 40px;
+    padding-left: 49px;
 }
 
 .font-size {
-    font-size: 20px;
+    font-size: 22px;
     color: black;
+}
+
+.custom-list li {
+    font-size: 28px;
+    color: red;
 }
