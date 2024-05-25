@@ -9,5 +9,17 @@
 
 .custom-list li {
     font-size: 28px;
-    color: red;
+    color: blue;
+}
+
+/* Nicht besuchte Links */
+a:link {
+    color: blue;
+    /* Standardfarbe für nicht besuchte Links */
+}
+
+/* Besuchte Links */
+a:visited {
+    color: blue;
+    /* Farbe für besuchte Links */
 }
