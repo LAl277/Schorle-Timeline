@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const toggleSwitch = document.getElementById("toggle-dark-mode");
+// src/index.ts
+document.addEventListener("DOMContentLoaded", () => {
+  const toggleSwitch = document.getElementById("toggle-dark-mode") as HTMLInputElement;
   const currentTheme = localStorage.getItem("theme");
 
   if (currentTheme) {
@@ -9,8 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   toggleSwitch.addEventListener("change", switchTheme);
 
-  function switchTheme(event) {
-    if (event.target.checked) {
+  function switchTheme(event: Event) {
+    const target = event.target as HTMLInputElement;
+    if (target.checked) {
       document.body.classList.add("dark-mode");
       localStorage.setItem("theme", "dark");
     } else {
