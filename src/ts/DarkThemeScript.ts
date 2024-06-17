@@ -1,4 +1,3 @@
-// src/index.ts
 document.addEventListener("DOMContentLoaded", () => {
   const toggleSwitch = document.getElementById("toggle-dark-mode") as HTMLInputElement;
   const currentTheme = localStorage.getItem("theme");
