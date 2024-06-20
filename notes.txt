@@ -12,3 +12,6 @@ generiert js-file aus ts-file
 
 # Live-Editor zum testen
 https://codepen.io/
+
+# CSS Templates
+https://www.free-css.com/
