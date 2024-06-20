@@ -1,0 +1,14 @@
+# npm install -g typescript
+global init für ts
+
+# npm init -y
+erstellt die package.json
+
+# npx tsc --init    
+erstell die tsconfig.json
+
+# tsc
+generiert js-file aus ts-file
+
+# Live-Editor zum testen
+https://codepen.io/

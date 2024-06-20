@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", () => {
+"use strict";
+document.addEventListener("DOMContentLoaded", function () {
     const toggleSwitch = document.getElementById("toggle-dark-mode");
     const currentTheme = localStorage.getItem("theme");
     if (currentTheme) {

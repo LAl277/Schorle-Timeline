@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
   const toggleSwitch = document.getElementById("toggle-dark-mode") as HTMLInputElement;
   const currentTheme = localStorage.getItem("theme");
 
