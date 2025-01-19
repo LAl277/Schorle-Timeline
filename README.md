@@ -2,3 +2,5 @@
 
 # Shortcuts:
 strg + shift + p -> Developer: reload window
+
+alt + shift + f -> struct
