@@ -13,7 +13,7 @@ import Webentwicklung from "./pages/webentwicklung";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Schorle-Timeline/">
       <Routes>
 
         <Route path="/" element={<Home />} />
